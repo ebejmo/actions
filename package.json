@@ -18,7 +18,8 @@
   "author": "bejmoemil@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.3"
   },
   "dependencies": {
     "one-liner-joke": "^1.2.2"
