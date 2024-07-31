@@ -23,6 +23,6 @@
     "prettier": "^3.3.3"
   },
   "dependencies": {
-    "one-liner-joke": "^1.2.2"
+    "give-me-a-joke": "^0.5.0"
   }
 }
