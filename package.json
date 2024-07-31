@@ -1,6 +1,6 @@
 {
   "name": "actions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "jokes, CSS, Workflow",
   "type": "module",
   "main": "src/index.js",
