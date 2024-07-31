@@ -11,10 +11,16 @@
     "type": "git",
     "url": "git+https://github.com/ebejmo/actions.git"
   },
-  "keywords": ["css", "workflow"],
+  "keywords": [
+    "css",
+    "workflow"
+  ],
   "author": "bejmoemil@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
   }
 }
