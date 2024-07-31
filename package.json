@@ -1,15 +1,28 @@
 {
   "name": "actions",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "jokes, CSS, Workflow",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebejmo/actions.git"
+  },
+  "keywords": [
+    "css",
+    "workflow"
+  ],
+  "author": "bejmoemil@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
   }
 }
