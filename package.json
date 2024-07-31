@@ -1,13 +1,17 @@
 {
   "name": "actions",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "jokes, CSS, Workflow",
+  "main": "src/index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebejmo/actions.git"
+  },
+  "keywords": ["css", "workflow"],
+  "author": "bejmoemil@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.4.5"
