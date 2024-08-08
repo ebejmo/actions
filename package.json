@@ -5,7 +5,8 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "node src/js/joker.test.js",
+    "test": "np run test-unit",
+    "test-unit": "jest",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
@@ -22,11 +23,15 @@
   "author": "bejmoemil@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
+    "eslint-plugin-jest": "^28.8.0",
     "husky": "^9.1.4",
+    "jest": "^29.2.0",
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.3"
   },
