@@ -1,6 +1,6 @@
 import 'dotenv/config';
 
-function test(expectedSecret) {
+function secret(expectedSecret) {
   // eslint-disable-next-line no-undef
   const secretMatches = process.env.MEANING_OF_LIFE == expectedSecret;
   // eslint-disable-next-line no-undef
@@ -9,6 +9,4 @@ function test(expectedSecret) {
   return secretMatches;
 }
 
-test(42);
-
-console.log('Intentional Error');
+secret(42);

@@ -5,7 +5,7 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "np run test-unit",
+    "test": "npm run test-unit",
     "test-unit": "jest",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
